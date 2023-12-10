@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #51495b;
+    --secondary-color: #c194b1;
+    --accent-color: #272d28;
+    --text-color: #fafafa;
+    --background-color: #f0f0f0;
+    --border-color: #ccc;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: serif;
+    background-color: var(--background-color);
+    line-height: 1.6;
+    color: var(--primary-color);
+  }
+  .logo-container img {
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+    height: auto;
+  }
+  
+  .tea-flex-container {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .tea-flex-container a {
+    color: var(--text--color);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tea-flex-container a:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+  }
+  
+  .page-container {
+    max-width: 768px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 424px;
+  }
+  
+  main .shop-description {
+    font-family: "garamond", serif;
+    color: var(--accent-color);
+    margin: 20px 0;
+    font-size: 1.3em;
+  }
+  
+  .title {
+    font-family: "garamond", serif;
+    color: #211e25;
+    text-align: center;
+    margin-top: 8px;
+  }
+  
